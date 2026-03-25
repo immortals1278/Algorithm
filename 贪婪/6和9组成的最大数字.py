@@ -1,0 +1,6 @@
+s = str(input())
+for i in range(len(s)):
+    if s[i] == "6":
+        s = s[:i] + "9" + s[i + 1:]
+        break
+print(int(s))
